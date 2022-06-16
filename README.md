@@ -1,14 +1,14 @@
 # attribution_treeBased_categorical_shap
-Download attribution_project.zip, and unzip it. 
+Download attribution_project.zip, and unzip it. This is only an empty folder structure, containing no data.
 Place it in a chosen location on your computer. 
-In the subfolder 'data' place a pickle file data.pkl, containing:
+In the subfolder 'data' place your dataset in a form of a pickle file data.pkl, containing:
 
 a dataframe 'data', with all categorical explanation variables, 
 a numerical outcome variable, an a variable 'm_var', 
 stating how on how many single datapoints each row is based.
 All categorical variables (columns) should be of type category.
 
-No further setup needed for the folder structure.
+No further setup needed for the folder structure ant the input.
 
 Run the Python Notebooks in sequence based on the number their name starts with. 
 
